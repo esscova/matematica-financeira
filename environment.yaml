@@ -1,0 +1,32 @@
+name: financial-analytics
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # core
+  - python=3.11
+
+  # data stack
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+
+  # financial / scientific
+  - numpy-financial
+
+  # dataviz
+  - plotly
+
+  # ambiente notebook
+  - jupyterlab
+  - notebook
+  - ipykernel
+
+  # utils
+  - pip
+
+  # deps via pip 
+  - pip:
+      - kaleido  
